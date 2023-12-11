@@ -128,6 +128,6 @@ ThemeData myDarkTheme() {
       color: Colors.amber,
       circularTrackColor: Colors.grey,
     ),
-    colorScheme: ColorScheme.dark(),
+    colorScheme: const ColorScheme.dark(),
   );
 }

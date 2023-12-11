@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import '../themes/my_themes.dart';
 import './body/metric_bmi.dart';
 import './body/us_bmi.dart';
@@ -37,7 +36,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
             ),
           ],
         ),
-        body: SingleChildScrollView(child: const MyAppBody()),
+        body: const SingleChildScrollView(child: MyAppBody()),
       ),
     );
   }
